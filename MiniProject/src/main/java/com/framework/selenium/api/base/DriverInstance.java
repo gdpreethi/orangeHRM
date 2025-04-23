@@ -30,7 +30,7 @@ public class DriverInstance  extends AbstractTestNGCucumberTests{
 
 	public void setDriver(String browser, boolean headless) {	
 		try {
-		URL gridUrl = new URL("http://localhost:4445/wd/hub");
+		URL gridUrl = new URL("http://localhost:4444/wd/hub");
 		 MutableCapabilities capabilities = null;
 		switch (browser) {
 		case "chrome":
